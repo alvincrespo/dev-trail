@@ -3,6 +3,7 @@
 console.log("===============Dev Trail===============");
 
 const inquirer = require("inquirer");
+const imageToAscii = require("image-to-ascii");
 
 const questions = [
   {
@@ -94,5 +95,11 @@ const questions = [
 ];
 
 inquirer.prompt(questions).then(answers => {
-  console.log({ answers });
+  imageToAscii(
+    "https://ih1.redbubble.net/image.437116340.8004/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
+    (err, converted) => {
+      console.log(err || converted);
+      console.log({ answers });
+    }
+  );
 });
