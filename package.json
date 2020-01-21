@@ -1,0 +1,24 @@
+{
+  "name": "dev-trail",
+  "version": "0.0.1",
+  "description": "Ever wondered what it's like to be a developer? Now's your chance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvincrespo/dev-trail.git"
+  },
+  "keywords": [
+    "oregon",
+    "oregon",
+    "trail"
+  ],
+  "author": "Alvin Crespo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvincrespo/dev-trail/issues"
+  },
+  "homepage": "https://github.com/alvincrespo/dev-trail#readme"
+}
